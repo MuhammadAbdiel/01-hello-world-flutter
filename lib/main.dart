@@ -13,22 +13,30 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Welcome to Flutter',
+      title: 'Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('Home'),
+          actions: <Widget>[
+            IconButton(
+              icon: const Icon(Icons.settings),
+              onPressed: () {},
+            ),
+          ],
         ),
         body: Center(
-          child: Container(
-            margin:
-                const EdgeInsets.only(bottom: 0, top: 250, left: 0, right: 0),
-            child: Column(
-              children: <Widget>[
-                Text('Hello World', style: title),
-                const Text('Muhammad Abdiel Firjatullah'),
-                const Text('2031710156'),
-              ],
-            ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text('Hello World', style: title),
+                  const Text('Muhammad Abdiel Firjatullah'),
+                  const Text('2031710156'),
+                ],
+              )
+            ],
           ),
         ),
       ),
