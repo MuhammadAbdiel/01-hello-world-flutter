@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                   const Text('Muhammad Abdiel Firjatullah'),
                   const Text('2031710156'),
                 ],
-              )
+              ),
             ],
           ),
         ),
