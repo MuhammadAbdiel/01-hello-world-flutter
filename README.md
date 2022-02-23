@@ -1,18 +1,12 @@
-# flutter_hello_world
+# 01-Hello-World-Flutter
+
+NIM : 2031710156
+Nama : Muhammad Abdiel Firjatullah
+Kelas : MI-2C
+Prodi : D3 Manajemen Informatika
 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hasil Praktikum
 
 ![image](https://user-images.githubusercontent.com/73479747/154802137-48cc8bce-bbbf-46cd-b209-9025f3915740.png)
